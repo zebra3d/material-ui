@@ -1,7 +1,8 @@
 ﻿label labyrinthe:
+    "Welcome to the maze"
     # Cacher la barre de texte
     window hide
-
+    
     # Initialisation des positions de l'image en pourcentage de la largeur et hauteur de l'écran
     if not hasattr(store, 'xpos'):
         $ xpos = 0.43
