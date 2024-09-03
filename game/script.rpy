@@ -1,5 +1,5 @@
 ﻿label labyrinthe:
-    "Welcome to the maze"
+    
     # Cacher la barre de texte
     window hide
     
