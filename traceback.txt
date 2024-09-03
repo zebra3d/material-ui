@@ -1,14 +1,14 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 163, in script
+  File "game/script.rpy", line 164, in script
     label labyrinthe_screen:
 Exception: Arguments supplied, but parameter list not present
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 163, in script
+  File "game/script.rpy", line 164, in script
     label labyrinthe_screen:
   File "C:\renpy-8.3.0-sdk\renpy\ast.py", line 764, in execute
     values = apply_arguments(self.parameters, renpy.store._args, renpy.store._kwargs)
@@ -19,4 +19,4 @@ Exception: Arguments supplied, but parameter list not present
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.0.24082114
 Labyrinthe 1.0
-Tue Sep  3 14:38:58 2024
+Tue Sep  3 18:37:30 2024

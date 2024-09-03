@@ -1,32 +1,67 @@
-2024-09-03 12:39:40 UTC
+2024-09-03 16:37:21 UTC
 Windows-10-10.0.22631
 Ren'Py 8.3.0.24082114
 
 Early init took 0.07s
-Loading error handling took 0.15s
-Loading script took 1.70s
-Loading save slot metadata took 0.02s
+Loading error handling took 0.06s
+Loading script took 0.96s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.13s
-Loading analysis data took 0.00s
-Analyze and compile ATL took 0.01s
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Mahut Mathieu\\AppData\\Roaming/RenPy/backups\\Labyrinthe':
-Dump and make backups took 0.05s
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.04s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.24s
+Creating interface object took 0.23s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.03s
+Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.15s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.55s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 3050 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 555.99'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+No collision at: 0.43, 0.89
+Moving player to: 0.43, 0.89
+No collision at: 0.43, 0.88
+Moving player to: 0.43, 0.88
+Collision detected: 0.43, 0.87 with block at (0.3385416666666667, 0.65)
+Movement blocked by collision.
+Collision detected: 0.43, 0.87 with block at (0.3385416666666667, 0.65)
+Movement blocked by collision.
+
+Full traceback:
+  File "game/script.rpy", line 164, in script
+    label labyrinthe_screen:
+  File "C:\renpy-8.3.0-sdk\renpy\ast.py", line 764, in execute
+    values = apply_arguments(self.parameters, renpy.store._args, renpy.store._kwargs)
+  File "C:\renpy-8.3.0-sdk\renpy\parameter.py", line 451, in apply_arguments
+    raise Exception("Arguments supplied, but parameter list not present")
+Exception: Arguments supplied, but parameter list not present
+
+While running game code:
+  File "game/script.rpy", line 164, in script
+    label labyrinthe_screen:
+Exception: Arguments supplied, but parameter list not present
