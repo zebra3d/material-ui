@@ -1,5 +1,5 @@
 ﻿label labyrinthe:
-    
+    "test"
     # Cacher la barre de texte
     window hide
     
