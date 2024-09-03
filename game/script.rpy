@@ -157,6 +157,7 @@
 
 label afficher_carte:
     # Attend que l'utilisateur ferme la carte manuellement
+    
     $ renpy.pause()
     return
 
